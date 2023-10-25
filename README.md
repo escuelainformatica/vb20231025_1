@@ -18,7 +18,6 @@ Agregue datos de ejemplo
    * Cliente (texto)
    * Producto (texto)
    * Total (entero)
-
 * Y cargue una nueva grilla usando una consulta a la base de datos
 
 ```sql
@@ -29,5 +28,4 @@ select cliente,producto,preciounitario*cantidad total from compra
 ```vbnet
 Public Overridable Property CompraDTOs As DbSet(Of CompraDTO)
 ```
-
 
