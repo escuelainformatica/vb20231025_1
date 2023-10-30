@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinFormsApp6", "WinFormsApp6\WinFormsApp6.vbproj", "{DF20C3CA-D456-4FB4-B422-3FCC75E750BA}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "WinFormsApp6", "WinFormsApp6\WinFormsApp6.vbproj", "{DF20C3CA-D456-4FB4-B422-3FCC75E750BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "carpeta1", "carpeta1", "{4FD07888-4B0C-4B0A-810C-6111D0913CA2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
